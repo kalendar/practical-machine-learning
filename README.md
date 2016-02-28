@@ -13,7 +13,7 @@ For this project I used a simple cross-validation strategy of splitting the trai
 
 ### What I think the expected out of sample error is
 
-The accuracy of this model was 0.9939 and it predicted all 20 items in the validation set correctly. Therefore, I believe the out of sample error to be very low.
+The accuracy of this model was 0.9939 and it predicted all 20 items in the validation set correctly. Therefore, the out of sample error is < .001.
 
 ```{r eval=FALSE}
 library(caret)
